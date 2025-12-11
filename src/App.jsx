@@ -5,7 +5,7 @@ import AddIdea from "./pages/AddIdea.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import Navbar from "./components/Navbar.jsx";
-import AddNew from "./pages/AddNew";
+import AddNew from "./pages/AddNew.jsx";
 import AllIdeas from "./pages/AllIdeas.jsx";
 import MyIdeas from "./pages/MyIdeas.jsx";
 import Profile from "./pages/Profile.jsx";

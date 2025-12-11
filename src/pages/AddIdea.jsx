@@ -1,4 +1,4 @@
-import "../styles/AddIdea.css";
+import "../styles/addIdea.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 

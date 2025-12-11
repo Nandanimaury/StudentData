@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Profile.css";
+import "../styles/profile.css";
 
 export default function Profile() {
   const user = JSON.parse(localStorage.getItem("currentUser"));

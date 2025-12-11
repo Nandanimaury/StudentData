@@ -7,10 +7,7 @@ export default function IdeaCard({ idea, refreshIdeas }) {
 
   let storedAnon = localStorage.getItem("anonId");
   if (!storedAnon) {
-    storedAnon =
-      "anon_" +
-      Date.now() +
-      "_" +
+    storedAnon = "anon_" + Date.now() + "_" +
       Math.random().toString(36).slice(2, 8);
 
     localStorage.setItem("anonId", storedAnon);
@@ -36,8 +33,7 @@ export default function IdeaCard({ idea, refreshIdeas }) {
     const updated = allIdeas.map((i) => {
       if (i.id === idea.id) {
         const likedBy = Array.isArray(i.likedBy)
-          ? [...i.likedBy]
-          : [];
+          ? [...i.likedBy] : [];
 
         let newLikes = i.likes || 0;
 

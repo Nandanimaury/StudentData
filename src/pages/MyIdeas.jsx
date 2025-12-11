@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../styles/MyIdeas.css";
+import "../styles/myIdeas.css";
 import IdeaCard from "../components/IdeaCard.jsx";
 
 export default function MyIdeas() {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import IdeaCard from "../components/IdeaCard.jsx";
+import IdeaCard from "../components/deaCard.jsx";
 
 export default function AllIdeas() {
   const [ideas, setIdeas] = useState([]);
